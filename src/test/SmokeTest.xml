@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="tests" verbose="2">
+  <test name="Default test">
+  <parameter name="URL" value="http://demo.nopcommerce.com"></parameter>
+  <parameter name="Browser" value="IE"></parameter>
+   <parameter name="Tags" value="@Register_Pos"></parameter>
+    <classes>
+         <class name="org.cucumberRunner.RunCukesByCompositionTest"/>
+    </classes>
+  </test>
+</suite> 

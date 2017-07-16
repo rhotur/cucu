@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6565" started-at="2017-05-21T18:30:15Z" finished-at="2017-05-21T18:30:22Z">
+    <groups>
+      <group name="examples-testng">
+        <method signature="RunCukesByCompositionTest.run_cukes(org.testng.ITestContext)[pri:0, instance:org.cucumberRunner.RunCukesByCompositionTest@7d9d1a19]" name="run_cukes" class="org.cucumberRunner.RunCukesByCompositionTest"/>
+      </group> <!-- examples-testng -->
+    </groups>
+    <test name="Default test" duration-ms="6565" started-at="2017-05-21T18:30:15Z" finished-at="2017-05-21T18:30:22Z">
+      <class name="org.cucumberRunner.RunCukesByCompositionTest">
+        <test-method status="PASS" signature="instantiateWebDriver(java.lang.String, java.lang.String)[pri:0, instance:org.cucumberRunner.RunCukesByCompositionTest@7d9d1a19]" name="instantiateWebDriver" is-config="true" duration-ms="5829" started-at="2017-05-21T14:30:16Z" finished-at="2017-05-21T14:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.nopcommerce.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateWebDriver -->
+        <test-method status="PASS" signature="run_cukes(org.testng.ITestContext)[pri:0, instance:org.cucumberRunner.RunCukesByCompositionTest@7d9d1a19]" name="run_cukes" duration-ms="689" started-at="2017-05-21T14:30:21Z" description="Example of using TestNGCucumberRunner to invoke Cucumber a" finished-at="2017-05-21T14:30:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f1af285]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- org.cucumberRunner.RunCukesByCompositionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
